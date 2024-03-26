@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>SELVA LLC</title>
+
+  <link rel="stylesheet" href="style.css">
+
+
+
+  <style>
+
+    @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+
+    body {
+
+      margin: 0;
+
+      box-sizing: border-box;
+
+    }
+
+
+
+    /* CSS for header */
+
+    .header {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      background-color: steelblue;
+
+    }
+
+
+
+    .header .logo {
+
+      font-size: 25px;
+
+      font-family: 'Sriracha', cursive;
+
+      color: #000;
+
+      text-decoration: none;
+
+      margin-left: 30px;
+
+    }
+
+
+
+    .nav-items {
+
+      display: flex;
+
+      justify-content: space-around;
+
+      align-items: center;
+
+      background-color: lightsteelblue;
+
+      margin-right: 20px;
+
+	font-family: 'Poppins', cursive
+
+    }
+
+
+
+    .nav-items a {
+
+      text-decoration: none;
+
+      color: #000;
+
+      padding: 35px 20px;
+
+		
+
+    }
+
+
+
+	  .dropdown {
+
+  position: relative;
+
+  display: inline-block;
+
+}
+
+
+
+.dropdown-content {
+
+  display: none;
+
+  position: absolute;
+
+  background-color: steelblue;
+
+  min-width: 160px;
+
+  z-index: 1;
+
+}
+
+
+
+.dropdown-content a {
+
+  color: black;
+
+  padding: 12px 16px;
+
+  text-decoration: none;
+
+  display: block;
+
+}
+
+
+
+.dropdown:hover .dropdown-content {
+
+  display: block;
+
+}
+
+
+
+.nav-items .dropdown .services,
+
+.nav-items .dropdown .teams {
+
+  cursor: pointer;
+
+}
+
+
+
+    /* CSS for main element */
+
+   
+
+  </style>
+
+</head>
+
+
+
+<body>
+
+  <header class="header">
+
+ 
+
+ <a href="#" class="logo"><img src="logo.png" alt="Your company logo"></a>
+
+ <nav class="nav-items">
+
+  <a href="#">Home</a>
+
+  <a href="#" id="header-about">About</a>
+
+  <div class="dropdown">
+
+   <a href="#" class="services">Services</a>
+
+   <div class="dropdown-content">
+
+    <a href="#">Software Control</a>
+
+    <a href="#">SIL Study</a>
+
+    <a href="#">Electrical</a>
+
+    <a href="#">IoT</a>
+
+   </div>
+
+  </div>
+
+ 
+
+  <div class="dropdown">
+
+   <a href="#" class="teams">Our Teams</a>
+
+   <div class="dropdown-content">
+
+    <a href="#">Staging</a>
+
+    <a href="#">Engineering</a>
+
+    <a href="#">Technology</a>
+
+   </div>
+
+  </div>
+
+  <a href="#">Portfolio</a>
+
+  <a href="testimonials.html">Testimonials</a>
+
+  <a href="#"  id="header-contact">Contact</a>
+
+ </nav>
+
+</header>
+
+  <main>
+
+    <div class="intro">
+
+      <h1>Welcome to SELVA LLC&nbsp;</h1>
+
+      <p> Selva LLC is an industrial automation located in Atlanta,US and operating as Selva Engineering
+		 <br> 
+		 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; and Automation at Virudhunagar,India.</p>
+		
+<button id="learn-more">Learn more</button>
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <h2>About Our Company</h2>
+        <p>Selva LLC offers full support from the Project Conception to the Completion, extending the service and assistance to the satisfaction of the customer.On-site analysis to resolve the complex process control and system specific problems.Project Management, taking responsibility for the project schedule and the customer satisfaction.Retrofit the legacy controls to the State of the art system.Train the plant personnel.</p>
+    </div>
+</div>
+
+
+    </div>
+
+    <div class="achievements">
+
+      <div class="icon-box">
+
+              <div class="icon">
+
+				 <i class="bx bx-book-reader"></i></div>
+
+              <h4 class="title"><a href="">Our Policy</a></h4>
+
+              <p class="description">
+				  Selva LLC offers full support from the Project Conception to the Completion, extending the service and assistance  the satisfaction of the customer.</p>
+            </div>
+
+
+
+            <div class="icon-box">
+
+              <div class="icon"><i class="bx bxs-factory"></i></div>
+
+              <h4 class="title"><a href="">Engineering</a></h4>
+
+              <p class="description">
+				  We are specialized in panel design, controls design, PLC, HMI, DCS, equipment automation and retrofit, from old relay based logic or old PLC, to new state of art technology</p>
+
+            </div>
+
+
+
+
+
+            <div class="icon-box">
+
+            <div class="icon"><i class="ri-user-follow-fill"></i></div>	       
+
+            <h4 class="title"><a href="">Expertise</a></h4>
+
+              <p class="description">
+				  We are experienced in the advanced control concepts for Power plants, safety configuration for Oil and Gas, Polyester Plants, Batch programming</p>
+
+            </div>
+
+    </div>
+
+    <div class="about-me">
+
+      <div class="about-me-text">
+        <h2>About us</h2>
+
+        <p>Selva LLC is an industrial automation and controls solution provider located in Atlanta, US and operating as Selva Engineering and Automation at Virudhunagar, India .
+
+
+
+We are specialized in the following areas
+
+
+
+Industrial Automation and Process control
+
+Control System retrofit
+
+Alarm Management, Historians
+
+System integration
+
+Training Simulator developement
+
+Control System training
+
+Engineering documentation
+
+Safety System Integration, Programming and Testing
+
+We provide highly skilled and experienced professional team. We are committed to meet our customer’s production goals and timelines.</p>
+
+      </div>
+
+      <img src="image1.png" alt="me">
+
+    </div>
+
+
+
+<!--<div class="contact">
+
+  <h2>Contact Us</h2>
+
+  <form id="contactForm">
+
+    <div class="form-group">
+
+      <label for="name">Your Name:</label>
+
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    </div>
+
+    <div class="form-group">
+
+      <label for="email">Your Email:</label>
+
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+    </div>
+
+    <div class="form-group">
+
+      <label for="message">Message:</label>
+
+      <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+
+    </div>
+
+  </form>
+   <a href="submited.html"><button class="but">Submit</button></a>
+</div> -->
+
+<section class="contact-info">
+  <div class="contact-box">
+    <h2>Location</h2>
+    <p>123 Street Name, City, Country</p>
+  </div>
+  <div class="contact-box">
+    <h2>Contact Details</h2>
+    <p>Phone: +123 456 7890<br>Email: contact@company.com</p>
+  </div>
+  <div class="contact-box">
+    <h2>Email</h2>
+    <p>contact@company.com</p>
+  </div>
+  <div class="contact-box">
+    <h2>Map Location</h2>
+    <div id="map"></div>
+  </div>
+</section>
+<section class="contact-form">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="subject" placeholder="Subject" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>	  
+
+
+
+
+  </main>
+
+  <footer class="footer">
+
+    <div class="copy">&copy; 2024 Developer</div>
+
+    <div class="bottom-links">
+
+      <div class="links">
+
+        <span>More Info</span>
+
+        <a href="#">Home</a>
+
+        <a href="#">About</a>
+
+		   <a href="#">Services</a>
+
+		   <a href="#">Our Teams</a>
+
+		   <a href="#">Portfolio</a>
+
+        <a href="#">Contact</a>
+
+      </div>
+
+      <div class="links">
+
+        <span>Social Links</span>
+
+        <a href="#"><i class="fab fa-facebook"></i></a>
+
+        <a href="#"><i class="fab fa-twitter"></i></a>
+
+        <a href="#"><i class="fab fa-instagram"></i></a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+ <script src="script.js"></script>
+ <script src="map.js"></script>
+</body>
+
+
+
+</html>
